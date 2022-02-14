@@ -32,6 +32,8 @@ for (const product of products) {
 
 console.log(output);
 
+// Using startWith
+
 const searchs = "dell";
 for (const product of products) {
   if (product.toLocaleLowerCase().startsWith(searchs.toLocaleLowerCase())) {
